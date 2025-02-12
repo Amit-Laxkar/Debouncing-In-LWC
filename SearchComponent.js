@@ -6,7 +6,6 @@ export default class SearchComponent extends LightningElement {
 
     // Called when the component is initialized
     connectedCallback() {
-        //Amit
         // Bind the debounced search function
         this.handleSearchDebounced = this.debounce(this.handleSearch, 300);
     }
